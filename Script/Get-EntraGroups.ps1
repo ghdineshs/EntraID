@@ -1,5 +1,6 @@
 # Import required module
 Import-Module Microsoft.Graph.Groups
+Import-Module Microsoft.Graph.Users
 
 # Connect to Microsoft Graph
 Connect-MgGraph -Scopes "Group.Read.All"
